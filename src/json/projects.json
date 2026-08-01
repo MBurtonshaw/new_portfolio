@@ -1,0 +1,32 @@
+[
+    {
+        "id" : 1,
+        "title" : "Sloppy Jo's Pizza v2.0",
+        "img" : "/img/sloppy_jos_v2_1.png",
+        "text" : "Originally based on Sloppy Jo's Pizza, this full-stack ordering application allows users to customize pizzas, manage carts, and submit orders. Built with React, Spring Boot, and PostgreSQL, it includes authentication, database persistence, email confirmation, and responsive UI design."
+    },
+    {
+        "id" : 2,
+        "title" : "Battle Game",
+        "img" : "/img/battle_1.png",
+        "text" : "The full-stack version of a text-based Java game that I'd previously built. Data is stored in a PostgreSQL database to save users' high scores as well as stats like the health points used during battles. The back-end is written in Java/Spring Boot and the front-end was made with React. Deployed with Heroku and Vercel."
+    },
+    {
+        "id" : 3,
+        "title" : "Horror Catalogue",
+        "img" : "/img/horror_catalogue_v2_3.png",
+        "text" : "A full-stack application featuring a personally curated selection of standout horror films. Users can browse titles by genre, decade, and other filters. By creating an account, they can keep track of what they’ve watched and build a personalized watchlist. Designed for horror fans looking for quality recommendations."
+    },
+    {
+        "id" : 4,
+        "title" : "Cloak and Dagger",
+        "img" : "/img/p6_2.png",
+        "text" : "A website I made for a local cocktail bar using mostly vanilla Javascript and JQuery, early in my learning to program. It was made in collaboration with a designer and the business owner. Recently, I remade the whole site using React."
+    },
+    {
+        "id" : 5,
+        "title" : "Winter Gardening App",
+        "img" : "/img/p5_2.png",
+        "text" : "Learn about Winter gardening in Northern climates, and how to extend the growing season even if there's snow on the ground. I made this while practicing Bootstrap with React"
+    }
+]
