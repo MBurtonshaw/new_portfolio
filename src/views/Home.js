@@ -1,12 +1,12 @@
 import Sidebar from '../components/Sidebar';
-import ProjectContainer from '../components/ProjectsContainer';
+import ProjectsContainer from '../components/ProjectsContainer';
 
 
-const Home = () => {
+const Home = ({projects}) => {
   return (
     <div className="Home min-vh-100">
       <Sidebar />
-      <ProjectContainer />
+      <ProjectsContainer projects={projects}/>
     </div>
   );
 };
