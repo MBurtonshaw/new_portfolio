@@ -17,7 +17,7 @@ const ProjectCard = ({ project }) => {
             alt={`project ${project.id} thumbnail`}
           />
 
-          <p className="fs-5 px-1">{project.text}</p>
+          <p className="fs-5 px-1">{project.summary}</p>
         </div>
       </Link>
     </div>

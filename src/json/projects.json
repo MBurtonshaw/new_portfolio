@@ -1,42 +1,42 @@
 [
-    {
-        "id" : 1,
-        "title" : "Anchor",
-        "img" : "/img/sloppy_jos_v2_1.png",
-        "text" : "Originally based on Sloppy Jo's Pizza, this full-stack ordering application allows users to customize pizzas, manage carts, and submit orders. Built with React, Spring Boot, and PostgreSQL, it includes authentication, database persistence, email confirmation, and responsive UI design.",
-        "technologies" : ["React.js", "Spring Boot", "Bootstrap", "PostgreSql"],
-        "description" : "Originally based on Sloppy Jo's Pizza, submit orders."
-    },
-    {
-        "id" : 2,
-        "title" : "Sloppy Jo's Pizza v2.0",
-        "img" : "/img/sloppy_jos_v2_1.png",
-        "text" : "Originally based on Sloppy Jo's Pizza, this full-stack ordering application allows users to customize pizzas, manage carts, and submit orders. Built with React, Spring Boot, and PostgreSQL, it includes authentication, database persistence, email confirmation, and responsive UI design.",
-        "technologies" : ["Java", "Spring Boot", "PostgreSql", "React", "Bootstrap"],
-        "description" : "Originally based on Sloppy Jo's Pizza, submit orders."
-    },
-    {
-        "id" : 3,
-        "title" : "Cloak and Dagger",
-        "img" : "/img/p6_2.png",
-        "text" : "A website I made for a local cocktail bar using mostly vanilla Javascript and JQuery, early in my learning to program. It was made in collaboration with a designer and the business owner. Recently, I remade the whole site using React.",
-        "technologies" : ["React.js", "Spring Boot", "Bootstrap", "PostgreSql"],
-        "description" : "A website I made for a local cocktail bar using mostly vanilla Javascript and JQuery, early in my learning to program."
-    },
-    {
-        "id" : 4,
-        "title" : "Battle Game",
-        "img" : "/img/battle_1.png",
-        "text" : "The full-stack version of a text-based Java game that I'd previously built. Data is stored in a PostgreSQL database to save users' high scores as well as stats like the health points used during battles. The back-end is written in Java/Spring Boot and the front-end was made with React. Deployed with Heroku and Vercel.",
-        "technologies" : ["React.js", "Spring Boot", "Bootstrap", "PostgreSql"],
-        "description" : "The full-stack version of a text-based Java game that I'd previously built."
-    },
-    {
-        "id" : 5,
-        "title" : "Horror Catalogue",
-        "img" : "/img/horror_catalogue_v2_3.png",
-        "text" : "A full-stack application featuring a personally curated selection of standout horror films. Users can browse titles by genre, decade, and other filters. By creating an account, they can keep track of what they’ve watched and build a personalized watchlist. Designed for horror fans looking for quality recommendations.",
-        "technologies" : ["React.js", "Spring Boot", "Bootstrap", "PostgreSql"],
-        "description" : "A full-stack application featuring a personally curated selection of standout horror films."
-    }
+  {
+    "id": 1,
+    "title": "Anchor",
+    "img": "/img/anchor.png",
+    "technologies": ["Java", "Spring Boot", "PostgreSQL", "React", "Bootstrap"],
+    "description": "Anchor evolved from a traditional todo app into a daily organizer focused on reducing decision fatigue and simplifying personal scheduling. Users can manage daily tasks, track long-term goals, and add appointments through a streamlined interface designed around clarity and momentum. The application uses React Router and Context API for frontend state management, with a Spring Boot backend handling application logic and data persistence.",
+    "summary": "A daily organizer designed to simplify scheduling, reduce decision fatigue, and help users focus on what matters most."
+  },
+  {
+    "id": 2,
+    "title": "Sloppy Jo's Pizza v2.0",
+    "img": "/img/sloppy_jos_v2_1.png",
+    "technologies": ["Java", "Spring Boot", "PostgreSQL", "React", "Bootstrap"],
+    "description": "Originally created as a collaborative pizza ordering application, Sloppy Jo's Pizza was expanded into a full-stack e-commerce experience. Users can customize pizzas, manage carts, and submit orders while customer and order data is securely persisted through a Spring Boot backend and PostgreSQL database. The application includes authentication, email confirmation, and a responsive React interface designed for a smooth ordering experience.",
+    "summary": "A full-stack pizza ordering application with authentication, persistence, and responsive design."
+  },
+  {
+    "id": 3,
+    "title": "Cloak and Dagger",
+    "img": "/img/p6_2.png",
+    "technologies": ["React", "JavaScript", "jQuery", "CSS", "HTML"],
+    "description": "A website originally developed for a local cocktail bar in collaboration with a designer and business owner. The project was later rebuilt using React to improve maintainability and modernize the user experience. Visitors can view the menu, browse a photo and video gallery, and subscribe to the business mailing list through a responsive interface.",
+    "summary": "A responsive business website rebuilt with React for a local cocktail bar."
+  },
+  {
+    "id": 4,
+    "title": "Battle Game",
+    "img": "/img/battle_1.png",
+    "technologies": ["Java", "Spring Boot", "PostgreSQL", "React", "Bootstrap"],
+    "description": "A full-stack expansion of a text-based Java battle game originally built as a standalone application. The updated version introduces a React frontend and Spring Boot backend with PostgreSQL persistence, allowing users to save high scores and track battle statistics such as health points used throughout gameplay. The application was deployed using Heroku and Vercel.",
+    "summary": "A fantasy strategy game expanded into a full-stack application."
+  },
+  {
+    "id": 5,
+    "title": "Horror Catalogue",
+    "img": "/img/horror_catalogue_v2_3.png",
+    "technologies": ["Java", "Spring Boot", "PostgreSQL", "React", "Bootstrap"],
+    "description": "Horror Catalogue is a full-stack application built around discovering and organizing standout horror films. The project combines an atmospheric, carefully designed interface with search, filtering, and personalization features. Users can explore films by title, genre, decade, and other categories, create personalized watchlists, and track movies they have viewed. Built with React, Spring Boot, and PostgreSQL, the application demonstrates frontend design, backend services, and persistent user data management.",
+    "summary": "A full-stack movie catalogue with filtering, user accounts, and personalized watchlists."
+  }
 ]

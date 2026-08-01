@@ -6,7 +6,7 @@ const ProjectDisplay = ({ project }) => {
     <div className="ProjectDisplay">
       <div>
         <h1>{project.title}</h1>
-        <h4 className="py-3">{project.description}</h4>
+        <h4 className="py-3">{project.summary}</h4>
         <div className="button_container">
           <Link className="link_button link_button_1" to="">
             Live Demo
@@ -23,9 +23,7 @@ const ProjectDisplay = ({ project }) => {
         <img className="w-100" src={project.img} alt={project.title} />
       </div>
 
-      <p className="project-description fs-5">
-        {project.text} {project.text}
-      </p>
+      <p className="project-description fs-5">{project.description}</p>
 
       <div className="m-3 p-2">
         <h4 className="mt-4">Technologies</h4>
