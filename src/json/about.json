@@ -1,0 +1,44 @@
+[
+  {
+    "title": "About",
+    "intro": [
+        "My career began in horticulture, where I managed gardens, high tunnels, and production systems before transitioning into software development. Working in that environment developed my ability to plan, troubleshoot, and improve complex systems — skills that continue to influence the way I approach programming.",
+        "After completing full-stack development programs focused on Java and JavaScript, I have continued building applications with Java, Spring Boot, React, and PostgreSQL. Through my projects, I have gained experience designing databases, developing REST APIs, implementing authentication, managing frontend state, and creating responsive user interfaces.",
+        "I enjoy creating software that combines strong technical foundations with thoughtful user experiences. Whether building productivity tools, business applications, or media platforms, I focus on developing applications that are practical, maintainable, and designed with the user in mind."
+    ],
+    "skills": [
+      {
+        "category": "Languages",
+        "items": ["Java", "JavaScript", "SQL"]
+      },
+      {
+        "category": "Frontend",
+        "items": ["React", "HTML", "CSS", "Bootstrap", "Responsive Design"]
+      },
+      {
+        "category": "Backend",
+        "items": [
+          "Spring Boot",
+          "REST APIs",
+          "Authentication and Authorization"
+        ]
+      },
+      {
+        "category": "Database",
+        "items": ["PostgreSQL", "Database Design", "ER Modeling"]
+      },
+      {
+        "category": "Testing",
+        "items": ["JUnit", "Mockito", "Integration Testing"]
+      },
+      {
+        "category": "Tools and Practices",
+        "items": ["Git", "Postman", "Heroku", "Vercel", "Agile/Scrum"]
+      }
+    ],
+    "links": [
+      "https://javacertification.vercel.app/",
+      "https://www.credential.net/1c38bf64-c9b4-4fe0-a6b7-612560765a2a#gs.6bfdvx"
+    ]
+  }
+]

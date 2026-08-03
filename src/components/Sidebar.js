@@ -18,18 +18,40 @@ const Sidebar = () => {
       </h1>
       <h4 className="mt-4 p-1">Junior Software Developer</h4>
       <br />
-      <Link className="white_link" to="/about">
-        <h4 className="mt-4">About</h4>
-      </Link>
-      <Link className="white_link" target='_blank' to="https://burtonshawresume.vercel.app/">
-        <h4 className="mt-5">Resume</h4>
-      </Link>
-      <Link className="white_link" target='_blank' to="https://www.linkedin.com/in/matthew-burtonshaw/">
-        <h4 className="mt-5">LinkedIn</h4>
-      </Link>
-      <Link className="white_link" target='_blank' to="https://github.com/MBurtonshaw">
-        <h4 className="mt-5">Github</h4>
-      </Link>
+      <div>
+        <Link className="white_link" to="/">
+          <h4 className="mt-4 py-2">Home</h4>
+        </Link>
+        <Link className="white_link" to="/about">
+          <h4 className="py-2">About</h4>
+        </Link>
+      </div>
+      <div className="mt-5">
+        <a
+          className="white_link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://burtonshawresume.vercel.app/"
+        >
+          <h4 className="py-2">Resume</h4>
+        </a>
+        <a
+          className="white_link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/matthew-burtonshaw/"
+        >
+          <h4 className="py-2">LinkedIn</h4>
+        </a>
+        <a
+          className="white_link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/MBurtonshaw"
+        >
+          <h4 className="py-2">Github</h4>
+        </a>
+      </div>
     </div>
   );
 };

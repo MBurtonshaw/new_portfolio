@@ -1,9 +1,11 @@
-
+import Sidebar from "../components/Sidebar";
+import AboutMe from "../components/AboutMe";
 
 const About = () => {
   return (
-    <div className="Home min-vh-100">
-      <h1>About</h1>
+    <div className="min-vh-100">
+      <Sidebar />
+      <AboutMe />
     </div>
   );
 };
